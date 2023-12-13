@@ -1,0 +1,32 @@
+// Widescreens
+@include mediaXl {
+
+}
+
+// Desktops & Laptops 
+@include mediaLg {
+
+}
+
+// Tablets & Small laptops
+@include mediaMd {
+    .feature-highlights {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .topnav {
+        flex-direction: column;
+    }
+
+    .topnav a {
+        display: block;
+        width: 100%;
+    }
+
+}
+
+// Smartphones
+@include mediaSm {
+    
+}
