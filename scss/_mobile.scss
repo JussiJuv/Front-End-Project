@@ -5,7 +5,13 @@
 
 // Desktops & Laptops 
 @include mediaLg {
-
+    .download-section {
+        grid-template-areas: 
+        'dw1 dw2'
+        'dw3 dw4'
+        'dw5';
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 // Tablets & Small laptops
@@ -24,6 +30,25 @@
         width: 100%;
     }
 
+    .download-section {
+        grid-template-areas: 
+        'dw1'
+        'dw2'
+        'dw3'
+        'dw4'
+        'dw5';
+        grid-template-columns: 1fr
+    }
+
+    .testimonial-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial-box {
+        flex: 0 0 80%;
+        margin: 20px auto;
+    }
 }
 
 // Smartphones
