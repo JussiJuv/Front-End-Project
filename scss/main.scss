@@ -83,21 +83,23 @@ body {
           transform: scale(1.05);
       }
     }
+}
 
-    .cta {
-        margin-top: 70px;
-        margin-left: 20px;
-        margin-bottom: 30px;
+.cta {
+  margin-top: 70px;
+  //margin-left: 20px;
+  //margin-bottom: 30px;
+  text-align: center;
 
-        h2 {
-            font-size: 42px;
-            font-weight: 700;
-        }
+  h2 {
+      font-size: 42px;
+      font-weight: 700;
+  }
 
-        p {
-          font-weight: 100;
-        }
-    }
+  p {
+    font-weight: 100;
+    font-size: 32px;
+  }
 }
 
 .goto-btn {

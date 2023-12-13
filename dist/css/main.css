@@ -56,15 +56,16 @@ body {
       margin-bottom: 10px; }
     .feature-highlights .feature:hover {
       transform: scale(1.05); }
-  .feature-highlights .cta {
-    margin-top: 70px;
-    margin-left: 20px;
-    margin-bottom: 30px; }
-    .feature-highlights .cta h2 {
-      font-size: 42px;
-      font-weight: 700; }
-    .feature-highlights .cta p {
-      font-weight: 100; }
+
+.cta {
+  margin-top: 70px;
+  text-align: center; }
+  .cta h2 {
+    font-size: 42px;
+    font-weight: 700; }
+  .cta p {
+    font-weight: 100;
+    font-size: 32px; }
 
 .goto-btn {
   background: #c0200b;
