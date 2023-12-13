@@ -1,3 +1,5 @@
+Created by Jussi Juvonen
+
 How to run this project
 
 1. Download the zip file and extract
