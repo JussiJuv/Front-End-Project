@@ -18,7 +18,7 @@ body {
   text-decoration: none;
   font-size: 24px; }
   .topnav a:hover {
-    background-color: #610c0c; }
+    background-color: #a81c0a; }
   .topnav a.active {
     background-color: #c0200b;
     color: white; }
@@ -49,7 +49,6 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); }
     .feature-highlights .feature span {
       width: 20px;
-      /* Adjust the size as needed */
       margin-bottom: 5px; }
     .feature-highlights .feature h3 {
       font-size: 32px;
@@ -71,48 +70,82 @@ body {
   color: white;
   text-align: center; }
 
-/* Pricing Section Styles */
 .pricing-section {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   margin: 50px auto; }
 
-/* Pricing Card Styles */
-.pricing-card {
+h1 {
   text-align: center;
-  max-width: 300px;
-  padding: 20px;
-  background: rgba(77, 77, 77, 0.72549);
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  position: relative; }
-  .pricing-card h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px; }
-  .pricing-card .price {
-    font-size: 32px;
-    color: #fff;
-    font-weight: bold;
-    margin-bottom: 15px; }
-  .pricing-card ul {
-    list-style-type: none;
-    padding: 0;
-    margin-bottom: 20px; }
-    .pricing-card ul li {
-      margin-bottom: 10px; }
-  .pricing-card .btn-choose {
-    display: inline-block;
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
+  margin-top: 2rem;
+  margin-bottom: 8rem; }
+
+p {
+  text-align: center;
+  margin-bottom: 4rem; }
+
+.pricing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .pricing .plan {
+    background-color: #fff;
+    padding: 2.5rem;
+    margin: 12px;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
-    bottom: 0px;
-    position: relative; }
-    .pricing-card .btn-choose:hover {
-      background-color: #45a049; }
+    text-align: center;
+    transition: 0.3s; }
+    .pricing .plan h2 {
+      font-size: 22px;
+      margin-bottom: 12px;
+      color: #333; }
+    .pricing .plan .price {
+      margin-bottom: 1rem;
+      font-size: 30px;
+      color: #333; }
+    .pricing .plan .text-secondary {
+      font-size: 20px; }
+    .pricing .plan ul.features {
+      list-style-type: none;
+      text-align: left; }
+      .pricing .plan ul.features li {
+        margin: 8px;
+        color: #333; }
+        .pricing .plan ul.features li .fas {
+          margin-right: 4px; }
+        .pricing .plan ul.features li .fa-check-circle {
+          color: #6ab04c; }
+        .pricing .plan ul.features li .fa-times-circle {
+          color: #eb4d4b; }
+    .pricing .plan button {
+      border: none;
+      width: 100%;
+      padding: 12px 35px;
+      margin-top: 1rem;
+      background-color: #c0200b;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px; }
+      .pricing .plan button:hover {
+        background: #a81c0a; }
+    .pricing .plan.popular {
+      border: 2px solid #c0200b;
+      position: relative;
+      transform: scale(1.08); }
+      .pricing .plan.popular .pop {
+        position: absolute;
+        top: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #c0200b;
+        color: #fff;
+        padding: 4px 20px;
+        font-size: 18px;
+        border-radius: 5px; }
+    .pricing .plan:hover {
+      box-shadow: 5px 7px 67px -28px black; }
 
 @media screen and (max-width: 800px) {
   .feature-highlights {
